@@ -22,7 +22,9 @@ const App = () => {
     <div className="container">
       <div className="box">
         <h1>Blue Whales</h1>
-        <button onClick={callFunction}>Get User</button>
+        <button className="btn" onClick={callFunction}>
+          Get User List
+        </button>
       </div>
       <table>
         <thead>
